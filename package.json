@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "tasker",
   "version": "1.0.0",
   "scripts": {
     "build": "turbo run build",
@@ -20,6 +20,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "rimraf": "^6.1.2",
     "turbo": "^2.5.5",
     "typescript": "^5.8.3"
   }
